@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.response-container {
+  direction: rtl; /* Set text direction to right-to-left */
+  text-align: right; /* Align text to the right */
+  font-family: "Tahoma", "Arial", sans-serif; /* Optional: Use a suitable font for RTL languages */
+}
